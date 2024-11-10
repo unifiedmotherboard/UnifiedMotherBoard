@@ -62,8 +62,8 @@
 		)
 		(symbol "UnifiedMotherboard_0_1"
 			(rectangle
-				(start -22.86 43.18)
-				(end 22.86 -43.18)
+				(start -22.86 45.72)
+				(end 22.86 -45.72)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -93,7 +93,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -35.56 180)
+				(at 25.4 -40.64 180)
 				(length 2.54) hide
 				(name "VBAT"
 					(effects
@@ -111,7 +111,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 45.72 270)
+				(at 0 48.26 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -129,7 +129,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -48.26 90)
 				(length 2.54) hide
 				(name "MP"
 					(effects
@@ -149,7 +149,7 @@
 		)
 		(symbol "UnifiedMotherboard_1_1"
 			(pin power_in line
-				(at 25.4 -35.56 180)
+				(at 25.4 -40.64 180)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -167,7 +167,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -48.26 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -185,7 +185,7 @@
 				)
 			)
 			(pin power_out line
-				(at 2.54 45.72 270)
+				(at 2.54 48.26 270)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -221,7 +221,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -48.26 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -239,9 +239,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -27.94 180)
+				(at 25.4 -35.56 180)
 				(length 2.54)
-				(name "D44/A7"
+				(name "SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -257,7 +257,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -48.26 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -275,9 +275,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -25.4 180)
+				(at 25.4 -33.02 180)
 				(length 2.54)
-				(name "D43/A6"
+				(name "SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -311,9 +311,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -22.86 180)
+				(at 25.4 -25.4 180)
 				(length 2.54)
-				(name "D42/A5"
+				(name "~{RESET}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -367,7 +367,7 @@
 			(pin bidirectional line
 				(at 25.4 -20.32 180)
 				(length 2.54)
-				(name "D41/A4"
+				(name "D41/A7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -383,7 +383,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -45.72 90)
+				(at 0 -48.26 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -403,7 +403,7 @@
 			(pin bidirectional line
 				(at 25.4 -17.78 180)
 				(length 2.54)
-				(name "D40/A3"
+				(name "D40/A6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -439,7 +439,7 @@
 			(pin bidirectional line
 				(at 25.4 -15.24 180)
 				(length 2.54)
-				(name "D39/A2"
+				(name "D39/A5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -475,7 +475,7 @@
 			(pin bidirectional line
 				(at 25.4 -12.7 180)
 				(length 2.54)
-				(name "D38/A1"
+				(name "D38/A4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -511,7 +511,7 @@
 			(pin bidirectional line
 				(at 25.4 -10.16 180)
 				(length 2.54)
-				(name "D37/A0"
+				(name "D37/A3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -565,7 +565,7 @@
 			(pin bidirectional line
 				(at 25.4 -7.62 180)
 				(length 2.54)
-				(name "D36"
+				(name "D36/A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -601,7 +601,7 @@
 			(pin bidirectional line
 				(at 25.4 -5.08 180)
 				(length 2.54)
-				(name "D35"
+				(name "D35/A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -637,7 +637,7 @@
 			(pin bidirectional line
 				(at 25.4 -2.54 180)
 				(length 2.54)
-				(name "D34"
+				(name "D34/A0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -905,7 +905,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -38.1 180)
+				(at 25.4 -43.18 180)
 				(length 2.54)
 				(name "NTC"
 					(effects
@@ -1265,7 +1265,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -45.72 90)
+				(at 0 -48.26 90)
 				(length 2.54)
 				(name "GND"
 					(effects
